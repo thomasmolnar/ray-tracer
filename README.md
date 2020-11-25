@@ -1,6 +1,6 @@
 To run the code, call the Run function with a certain radius and list of optical elements as arguments (both orientations of the plano-convex lens have already been defined in two lists planoconvex1 and planoconvex2). 
 
-The number of different radii (with default value of 8) and factor by which the number of rays increase (with default value of 10) can also be varied in [config](./config) file of repo.
+The number of different radii (with default value of 8) and factor by which the number of rays increase (with default value of 10) can also be varied in [config](./config.cfg) file of repo.
 
 Results for orientation 1 of plano-convex lens:
 
