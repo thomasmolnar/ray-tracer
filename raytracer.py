@@ -342,8 +342,8 @@ if __name__=="__main__":
 
     """Running program
     """
-    Run(radius=config['radius'], elements=planoconvex1,
-        n_radii=config['n_radii'], factor=config['factor'])
+    Run(radius=float(config['radius']), elements=planoconvex1,
+        n_radii=float(config['n_radii']), factor=float(config['factor']))
 
         
 
