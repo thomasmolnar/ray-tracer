@@ -313,7 +313,7 @@ def Bundle(radius, n, f):
             bundle.append(ray)
     return bundle
 
-def Run(radius, elements, n_radii = 8, factor = 10):
+def Run(radius=5, elements, n_radii = 8, factor = 10):
     """Runs the Program for the following parameters:
         
         radius: Radius of outermost rays in beam
@@ -342,7 +342,8 @@ if __name__=="__main__":
 
     """Running program
     """
-    Run(5, planoconvex1, 8, 10)
+    Run(radius=config['radius'], elements=planoconvex1,
+        n_radii=config['n_radii'], factor=config['factor'])
 
         
 
