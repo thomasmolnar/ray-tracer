@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-T Molnar 25/01/2018
-
-"""
-
 """
 3-D Optical Ray Tracer
 Model investigates the propagation of Ray objects through various optical element objects
@@ -344,9 +338,3 @@ if __name__=="__main__":
     """
     Run(radius=float(config['radius']), elements=planoconvex1,
         n_radii=float(config['n_radii']), factor=float(config['factor']))
-
-        
-
-    
-    
-        
